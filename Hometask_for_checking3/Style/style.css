@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+}
+.users-box{
+    height: 100vh;
+    border: 2px solid black;
+    display: grid;
+    background-color: darkgrey;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.user-block{
+    background-color: aqua;
+    display: grid;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+
+}
