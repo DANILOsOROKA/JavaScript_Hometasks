@@ -10,9 +10,9 @@ function exchange(sumUAH,currencyValues,exchangeCurrency){
             console.log(exchangeCurrency)
             break;
         case 'GRP':
-            exchangeCurrency = sumUAH / 50
+            exchangeCurrency = sumUAH / 60
             console.log(exchangeCurrency)
             break;
     }
 }
-exchange(500000,'EUR')
+exchange(500000, 'EUR')
