@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+}
+.course{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(197, 197, 197);
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    height: 30px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+.Durations{
+    height: 30px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+.monthDuration{
+    height: 20px;
+    width: 20%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: antiquewhite;
+}
+.hourDuration{
+    height: 20px;
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: antiquewhite;
+}
+.modules{
+    margin-top: 10px;
+    width: 80%;
+    height: 270px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: beige;
+    gap: 8px;
+}
+.HTML{
+    font-size: 15px;
+    font-weight: bold;
+    height: 20px;
+    background-color: rgb(255, 204, 142);
+    display: flex;
+    align-items: center;
+}
+.CSS{
+    font-size: 15px;
+    font-weight: bold;
+    height: 20px;
+    background-color: rgb(255, 204, 142);
+    display: flex;
+    align-items: center;
+}
+.JS{
+    font-size: 15px;
+    font-weight: bold;
+    height: 20px;
+    background-color: rgb(255, 204, 142);
+    display: flex;
+    align-items: center;
+}
